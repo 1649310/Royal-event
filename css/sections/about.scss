@@ -1,0 +1,53 @@
+.about {
+    min-height: 59px;
+    padding: 140px 0;
+    text-align: center;
+    background: url(../img/about/about-bg.png) center/cover no-repeat;
+    position: relative;
+}
+
+.about__title {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+}
+.section__title-about {
+    color: #fff;
+}
+.section__title-desc {
+    color: #fff;
+}
+.about__content {
+    @include clearfix;
+    background: #fff;
+    
+}
+.about__content-left {
+    float: left;
+    width: 50%;
+}
+.section__title-pic {
+    display: inline-block;
+    max-width: 100%;
+}
+.about__content-right {
+    float: right;
+    width: 50%;
+    padding: 70px;
+    text-align: left;
+}
+.content__title {
+    font: bold 28px 'PTserif';
+    color: $content;
+    margin-bottom: 30px;
+}
+.content__text {
+    font: 14px 'PTserif';
+    color: #929292;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+.content__year {
+    font: bold 28px 'PTserif';
+    color: #434343;
+}

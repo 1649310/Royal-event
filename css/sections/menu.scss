@@ -1,0 +1,38 @@
+.menu {
+    padding: 250px 0 115px;
+    text-align: center;
+    background: #f3f1ec;
+    position: relative;
+}
+.about__title {
+    margin-bottom: 50px;
+}
+.section__title-desc {
+    color:#808369;
+}
+.menu__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    background: #fff;
+    margin: 0 15px 50px;
+}
+.menu__link {
+    display: block;
+    text-decoration: none;
+    padding: 15px 15px 0;
+}
+.menu__desc {
+    padding: 40px 0;
+    color:#808369;
+    font: bold 16px 'PTserif';
+}
+.menu__img-pic {
+    display: block;
+    max-width: 100%;
+}
+.menu__text {
+    font: bold 20px 'PTserif';
+    color:#808369;
+    margin-bottom: 50px;
+}
