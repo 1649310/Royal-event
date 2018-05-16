@@ -1,0 +1,32 @@
+.hero {
+    min-height: 59px;
+    padding: 190px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/hero-bg.png) center/cover no-repeat;
+}
+.hero__title {
+    &:after {
+        @include centerer-xy();
+        content: '';
+        width: 110px;
+        height: 2px;
+        background: #fff;
+    }
+
+
+}
+
+.title {
+    font-size: 36px;
+    display: inline-block;
+    width: 50%;
+
+  
+}
+.button {
+    text-decoration: none;
+    color: #fff;
+    background: #ffb18b;
+    padding: 25px 55px;
+}

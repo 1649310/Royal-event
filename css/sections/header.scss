@@ -1,0 +1,81 @@
+
+.header__top {
+    background-color: #f3f1ec;
+    margin-bottom: 50px;
+}
+.nav__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav__link {
+    text-decoration: none;
+    color: $header;
+    padding: 0 25px;
+}
+.nav__item {
+    &:after {
+        content: '';
+        width: 2px;
+        height: 17px;
+        display: inline-block;
+        vertical-align: middle;
+        background: #d0ceca;
+    }
+    &:last-child::after {
+        display: none;
+    }
+}
+.header__bottom {
+    @include clearfix;
+}
+.header__contacts {
+    float: left;
+    width: 25%;
+}
+.header__logo {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.header__buy {
+    float: right;
+    width: 25%;
+}
+.contact {
+    display: block;
+    text-decoration: none;
+    color: $header;
+    text-align: right;
+}
+.contact__phone {
+    &:before {
+		font-family: 'FontAwesome';
+        content: "\f095";
+        padding-right: 5px;
+	}
+}
+.logo {
+    display: inline-block;
+}
+.logo__pic {
+    display: block;
+    max-width: 280px;
+    max-height: 100px;
+}
+.cart {
+    text-decoration: none;
+}
+.cart__text {
+    display: block;
+    color: $header;
+}
+.cart__text-shopping-cart {
+    &:before {
+		font-family: 'FontAwesome';
+        content: "\f07a";
+        padding-right: 10px;
+	}
+}
