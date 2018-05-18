@@ -27,7 +27,7 @@
 }
 .menu__desc {
     padding: 40px 0;
-    color:#808369;
+    color:$content;
     font: bold 16px 'PTserif';
 }
 .menu__img-pic {
@@ -36,6 +36,6 @@
 }
 .menu__text {
     font: bold 20px 'PTserif';
-    color:#808369;
+    color:$content;
     margin-bottom: 50px;
 }
