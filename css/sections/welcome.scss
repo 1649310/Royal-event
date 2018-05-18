@@ -1,5 +1,5 @@
 .welcome {
-    padding: 100px 0;
+    padding: 140px 0;
     text-align: center;
     
 }
@@ -26,18 +26,23 @@
 }
 .section__title-bottom {
     z-index: -1;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
 }
 .section__title-desc {
-    color: $content; 
+    color: $content;
+    text-transform: uppercase;
 }
 .welcome__list {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 65px;
+    margin: 0 -15px 65px;
 }
 .welcome__item {
-    width: 25%;
+    width: 33.3%;
     padding: 0 15px
 }
 .welcome__pic {

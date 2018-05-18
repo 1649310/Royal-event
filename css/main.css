@@ -2732,7 +2732,8 @@ body {
   min-height: 100%;
   overflow: hidden;
   position: relative;
-  min-width: 1220px; }
+  min-width: 1870px;
+  margin: 0 auto; }
   .wrapper:after {
     content: "";
     display: block;
@@ -2740,8 +2741,8 @@ body {
     overflow: hidden; }
 
 .container {
-  width: 1200px;
-  margin: 0 auto;
+  width: 1170px;
+  margin: auto;
   position: relative; }
 
 * {
@@ -2768,7 +2769,7 @@ p {
   background: #fff;
   margin-top: -125px;
   position: relative;
-  min-width: 1220px; }
+  min-width: 1870px; }
 
 .header__top {
   background-color: #f3f1ec;
@@ -2804,16 +2805,16 @@ p {
 
 .header__contacts {
   float: left;
-  width: 25%; }
+  width: 15%; }
 
 .header__logo {
   float: left;
-  width: 50%;
+  width: 70%;
   text-align: center; }
 
 .header__buy {
   float: right;
-  width: 25%; }
+  width: 15%; }
 
 .contact {
   display: block;
@@ -2848,9 +2849,9 @@ p {
 
 .hero {
   min-height: 59px;
-  padding: 190px 0;
+  padding: 240px 0;
   text-align: center;
-  background: url(../img/hero/hero-bg.png) center/cover no-repeat;
+  background: url(../img/hero/hero-bg.jpg) center no-repeat;
   position: relative; }
 
 .hero__title {
@@ -2858,28 +2859,47 @@ p {
   width: 50%;
   margin-bottom: 100px; }
   .hero__title:after, .hero__title:before {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     content: '';
     width: 110px;
     height: 2px;
-    background: #fff; }
+    background: #fff;
+    display: inline-block; }
 
 .title {
   font: bold 40px 'PTserif';
-  color: #fff; }
+  color: #fff;
+  padding: 40px 0;
+  text-transform: uppercase; }
 
 .button {
   text-decoration: none;
   color: #fff;
   background: #ffb18b;
   padding: 20px 50px;
-  display: inline-block; }
+  display: inline-block;
+  text-transform: uppercase; }
+
+.arrow {
+  width: 0px;
+  height: 0px;
+  border: 8px solid transparent;
+  border-top-color: #808369;
+  border-bottom: 0;
+  position: absolute;
+  bottom: -52%;
+  left: 50%; }
+  .arrow:before {
+    content: "";
+    display: block;
+    border: 7px solid transparent;
+    border-top-color: #fff;
+    border-bottom: 0;
+    position: absolute;
+    top: -10px;
+    left: -7px; }
 
 .welcome {
-  padding: 100px 0;
+  padding: 140px 0;
   text-align: center; }
 
 .welcome__title {
@@ -2903,19 +2923,24 @@ p {
     bottom: -40px; }
 
 .section__title-bottom {
-  z-index: -1; }
+  z-index: -1;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0; }
 
 .section__title-desc {
-  color: #808369; }
+  color: #808369;
+  text-transform: uppercase; }
 
 .welcome__list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 65px; }
+  margin: 0 -15px 65px; }
 
 .welcome__item {
-  width: 25%;
+  width: 33.3%;
   padding: 0 15px; }
 
 .welcome__pic {
@@ -2926,19 +2951,21 @@ p {
   min-height: 59px;
   padding: 140px 0;
   text-align: center;
-  background: url(../img/about/about-bg.png) center/cover no-repeat;
+  background: url(../img/about/about_bg.jpg) center/cover no-repeat;
   position: relative; }
 
 .about__title {
   display: inline-block;
   width: 30%;
-  position: relative; }
+  position: relative;
+  z-index: 1; }
 
 .section__title-about {
   color: #fff; }
 
-.section__title-desc {
-  color: #fff; }
+.section__title-desc-about {
+  color: #fff;
+  text-transform: uppercase; }
 
 .about__content {
   background: #fff; }
@@ -2978,21 +3005,22 @@ p {
   color: #434343; }
 
 .menu {
-  padding: 250px 0 115px;
+  padding: 300px 0 115px;
   text-align: center;
   background: #f3f1ec;
   position: relative; }
 
 .about__title {
-  margin-bottom: 50px; }
+  margin-bottom: 100px; }
 
-.section__title-desc {
-  color: #808369; }
+.menu__list {
+  margin: 0 -30px;
+  font-size: 0; }
 
 .menu__item {
   display: inline-block;
   vertical-align: top;
-  width: 15%;
+  width: 22%;
   background: #fff;
   margin: 0 15px 50px; }
 
@@ -3014,5 +3042,16 @@ p {
   font: bold 20px 'PTserif';
   color: #808369;
   margin-bottom: 50px; }
+
+.container__services {
+  padding: 140px 0;
+  text-align: center; }
+
+.services__title {
+  margin-bottom: 100px;
+  display: inline-block;
+  width: 35%;
+  position: relative;
+  z-index: 1; }
 
 /*# sourceMappingURL=main.css.map */

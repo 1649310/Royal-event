@@ -1,22 +1,25 @@
 .menu {
-    padding: 250px 0 115px;
+    padding: 300px 0 115px;
     text-align: center;
     background: #f3f1ec;
     position: relative;
 }
 .about__title {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
-.section__title-desc {
-    color:#808369;
+
+.menu__list {
+    margin: 0 -30px ; 
+    font-size: 0;
 }
 .menu__item {
     display: inline-block;
     vertical-align: top;
-    width: 15%;
+    width: 22%;
     background: #fff;
     margin: 0 15px 50px;
 }
+
 .menu__link {
     display: block;
     text-decoration: none;

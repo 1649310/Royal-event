@@ -1,6 +1,6 @@
 // adjustment
 $footer-height: 125px;
-$container-width: 1200px;
+$container-width: 1820px;
 
 // vars
 $content: #808369; 
@@ -20,7 +20,8 @@ body {
 	min-height: 100%;
 	overflow: hidden;
 	position: relative;
-	min-width: $container-width + 20px;
+	min-width: $container-width + 50px;
+	margin: 0 auto;
 
 	&:after {
 		content: "";
@@ -30,9 +31,10 @@ body {
 	}
 }
 .container {
-	width: $container-width;
-	margin:0 auto;
+	width: 1170px;
+	margin: auto;
 	position: relative;
+	
 }
 * {
 	box-sizing: border-box;
@@ -59,5 +61,5 @@ p {
 	background: #fff;
 	margin-top: -$footer-height;
 	position: relative;
-	min-width: $container-width + 20px;
+	min-width: $container-width + 50px;
 }

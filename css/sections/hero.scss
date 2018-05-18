@@ -1,28 +1,32 @@
 .hero {
     min-height: 59px;
-    padding: 190px 0;
+    padding: 240px 0;
     text-align: center;
-    background: url(../img/hero/hero-bg.png) center/cover no-repeat;
+    background: url(../img/hero/hero-bg.jpg) center no-repeat;
     position: relative;
 }
 .hero__title {
     display: inline-block;
     width: 50%;
     margin-bottom: 100px;
+    
 
     &:after, 
     &:before {
-        @include centerer-xy();
         content: '';
         width: 110px;
         height: 2px;
         background: #fff;
+        display: inline-block;
+
     }
 }
 
 .title {
     font: bold 40px 'PTserif';
     color: #fff;
+    padding: 40px 0;
+    text-transform: uppercase;
 }
 .button {
     text-decoration: none;
@@ -30,4 +34,26 @@
     background: #ffb18b;
     padding: 20px 50px;
     display: inline-block;
+    text-transform: uppercase;
 }
+.arrow {
+    width: 0px;
+    height: 0px;
+    border: 8px solid transparent;
+    border-top-color: $content;
+    border-bottom: 0;
+    position: absolute;
+    bottom: -52%;
+    left: 50%;
+
+    &:before {
+        content: "";
+        display: block;
+        border: 7px solid transparent;
+        border-top-color: #fff;
+        border-bottom: 0;
+        position: absolute;
+        top: -10px;
+        left: -7px;
+    }
+}   
