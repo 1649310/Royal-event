@@ -22,14 +22,14 @@
 .about__content {
     @include clearfix;
     background: #fff;
-    
+    margin: -255px auto;
 }
 .about__content-left {
     float: left;
     width: 50%;
 }
 .about__content-pic {
-    display: inline-block;
+    display: block;
     max-width: 100%;
 }
 .about__content-right {

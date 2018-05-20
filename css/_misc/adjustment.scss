@@ -20,7 +20,7 @@ body {
 	min-height: 100%;
 	overflow: hidden;
 	position: relative;
-	min-width: $container-width + 50px;
+	max-width: $container-width + 50px;
 	margin: 0 auto;
 
 	&:after {
