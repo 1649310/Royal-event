@@ -1,0 +1,50 @@
+.blog {
+    padding: 140px 0;
+    text-align: center;
+}
+
+.blog__list {
+    font-size: 0;
+    margin-bottom: 40px;
+}
+.blog__item {
+    display: inline-block;
+    vertical-align: middle;
+    width: 33.3%;
+}
+
+.blog__link {
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.blog__img-pic {
+    
+    max-width: 100%;
+}
+
+.blog__desc { 
+    padding: 35px;
+}
+.blog__desc-data {
+    font: bold 14px 'PTserif';
+    color: $content;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.blog__desc-header {
+    font: bold 22px 'PTserif';
+    color: #434343;
+    position: relative;
+
+    &:after {
+        @include centerer-x();
+        content: '';
+        width: 110px;
+        height: 2px;
+        background: $content;
+        bottom: -25px;
+    }
+}

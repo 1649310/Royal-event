@@ -1,9 +1,10 @@
 .about {
     min-height: 59px;
-    padding: 140px 0;
+    padding: 140px 0 470px;
     text-align: center;
     background: url(../img/about/about_bg.jpg) center/cover no-repeat;
     position: relative;
+    z-index: 1;
 }
 
 .about__title {
@@ -22,20 +23,29 @@
 .about__content {
     @include clearfix;
     background: #fff;
-    margin: -255px auto;
+    position: absolute;
+    top: 160%;
 }
 .about__content-left {
     float: left;
     width: 50%;
+    
 }
 .about__content-pic {
+    width: 582px;
+    height: 540px;
     display: block;
-    max-width: 100%;
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
 }
 .about__content-right {
     float: right;
     width: 50%;
-    padding: 70px;
+    padding: 90px 70px 0 85px;
     text-align: left;
 }
 .content__title {
