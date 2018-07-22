@@ -1,0 +1,38 @@
+.footer {
+    padding: 120px 0 40px;
+    text-align: center;
+}
+.footer__container {
+    width: 770px;
+    margin: auto;
+}
+.footer__top {
+    @include clearfix;
+}
+.footer__contacts {
+    float: left;
+    width: 20%;
+    padding-top: 30px
+}
+.footer__logo {
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+.footer__adress {
+    float: right;
+    width: 20%;
+    padding-top: 30px;
+}
+
+.adress {
+    display: block;
+    text-decoration: none;
+    color: $content;
+    text-align: left;
+    text-transform: uppercase
+}
+.footer__copy {
+    font: 14px 'PTserif';
+    color: $content;
+}

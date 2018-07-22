@@ -1,17 +1,22 @@
 .chef {
     min-height: 59px;
-    padding: 140px 0 470px;
+    padding: 145px 0 480px;
     text-align: center;
     background: url(../img/chef/chef_bg.jpg) center/cover no-repeat;
     position: relative;
     z-index: 1;
 }
 
+.cheff__bg {
+    width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  position: absolute;
+}
 .chef__content {
     @include clearfix;
     background: #fff;
-    position: absolute;
-    top: 160%;
+    
 }
 
 .chef__content-left {

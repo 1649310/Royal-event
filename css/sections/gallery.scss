@@ -1,0 +1,40 @@
+.gallery { 
+    padding: 145px 0 110px; 
+    text-align: center;
+}
+
+.gallery__content {
+    // @include clearfix;
+    // font-size: 0;
+    display: grid;
+    grid-template-columns: 585px 592px 585px;
+    grid-gap: 27px;
+    ;
+    margin-bottom: 55px; 
+
+    img:nth-child(3) {
+        grid-row: span 2;
+    }
+}
+
+// .gallery__content-left, .gallery__content-center {
+//     float: left;
+//     width: 33.3%;
+// }
+
+// .gallery__content-right {
+//     float: right;
+//     width: 33.3%;
+// }
+// .gallery__content-foto {
+//     // width: 592px;
+//     // height: 362px;
+//     display: block;
+//     max-width: 100%;
+//     height: auto;
+//     padding: 0 15px;
+
+//     // img {
+//     //     max-width: 100%;
+//     //     max-height: auto;
+//     // }
